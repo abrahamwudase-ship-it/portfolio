@@ -145,3 +145,31 @@ header {
     max-width: 650px;
     margin: 0 auto 35px;
 }
+/* Education Section */
+#education {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.education-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-card h3 {
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
