@@ -231,3 +231,50 @@ header {
 .skill-card p {
     line-height: 1.6;
 }
+
+.projects-section {
+    background-color: #7c878f;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 1200px;
+    margin: 35px auto 0;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-card h3 {
+    color: #10243e;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+.technology {
+    color: #0284c7;
+    font-weight: bold;
+}
+
+.project-link {
+    color: #0284c7;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
