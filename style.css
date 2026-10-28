@@ -268,13 +268,18 @@ header {
     font-weight: bold;
 }
 
-.project-link {
+.project-link1 {
     color: #0284c7;
     font-weight: bold;
     text-decoration: none;
     margin-top: auto;
 }
-
+.project-link2{
+    color: #0284c7;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: auto;
+}
 .project-link:hover {
     text-decoration: underline;
 }
