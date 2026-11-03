@@ -283,3 +283,53 @@ header {
 .project-link:hover {
     text-decoration: underline;
 }
+
+.contact-details {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.contact-details a {
+    color: #0284c7;
+    overflow-wrap: anywhere;
+}
+
+#contact-form {
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: 2px solid #0284c7;
+    border-color: transparent;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#form-status {
+    margin-top: 15px;
+    overflow-wrap: anywhere;
+}

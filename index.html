@@ -158,7 +158,8 @@
             </div>
         </section>
 
-         <section id="projects" class="section projects-section">
+         <!-- 5. Projects -->
+        <section id="projects" class="section projects-section">
             <h2 class="section-title">My Projects</h2>
 
             <p class="section-description">
@@ -180,7 +181,7 @@
                         HTML, CSS, JavaScript
                     </p>
 
-                    <a href="index.html" class="project-link1">
+                    <a href="#contact" class="project-link">
                         Ask About This Project
                     </a>
                 </article>
@@ -197,9 +198,94 @@
                         Java, OOP, File Handling
                     </p>
 
-                    <a href="C:\Users\user\Documents\GitHub\javaa\Dormitory management system\src"  class="project-link2">
+                    <a href="#contact" class="project-link">
                         Ask About This Project
                     </a>
                 </article>
-                
-                    
+
+                <article class="project-card">
+                    <h3>Academic Support Application</h3>
+
+                    <p>
+                        A proposed application to help students
+                        organize academic information and access
+                        learning resources.
+                    </p>
+
+                    <p class="technology">
+                        Project Idea
+                    </p>
+
+                    <a href="#contact" class="project-link">
+                        Ask About This Project
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 6. Contact Information -->
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="section-description">
+                Have a question or want to discuss a project?
+                Send me a message.
+            </p>
+
+            <div class="contact-details">
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:your-email@example.com">
+                        abrahamwudase@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/abrahamwudase-ship-it"
+                       target="_blank" rel="noopener noreferrer">
+                        Visit My GitHub
+                    </a>
+                </p>
+            </div>
+
+            <form id="contact-form">
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Prepare Email
+                </button>
+
+                <p id="form-status" role="status" aria-live="polite"></p>
+
+            </form>
+        </section>
+
+    </main>
